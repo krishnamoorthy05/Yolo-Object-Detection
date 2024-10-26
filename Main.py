@@ -22,7 +22,6 @@ def process_detections(detections, frame):
         confs.append([conf])
     
     return np.array(bbox_xywh), np.array(confs)
-
 # Load video or capture live video
 video_path = "path_to_your_video.mp4"  # Use 0 for webcam
 cap = cv2.VideoCapture(video_path)
