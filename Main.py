@@ -58,3 +58,4 @@ while cap.isOpened():
 # Release video capture and close windows
 cap.release()
 cv2.destroyAllWindows()
+
